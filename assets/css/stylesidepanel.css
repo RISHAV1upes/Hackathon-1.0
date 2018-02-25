@@ -1,0 +1,36 @@
+#updatesModal{
+position: fixed;
+top: 30%;
+left: 97%;
+height: 60%;
+min-height: 400px;
+width: 25%;
+border: 3px solid rgba(0,0,0,.2);
+border-radius: 6px;
+outline: 0;
+background-color: white;
+z-index:1000;
+-webkit-transition: left 1s; /* For Safari 3.1 to 6.0 */
+transition: left 1s;
+}
+#updatesModal:hover{
+	left:75% !important;
+}
+#lhead{
+writing-mode: vertical-lr;
+width: 35px;
+position: absolute;
+left: 0;
+height: 100%;
+padding-top: 50px;
+}
+#modaltext{
+padding-left: 45px;
+overflow-x:none;
+overflow-y:scroll;
+height: 100%;
+width: 100%;
+}
+#modaltext p{
+	font-size: 14px !important;
+}
